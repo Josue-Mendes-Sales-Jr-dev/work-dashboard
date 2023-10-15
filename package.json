@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/recharts": "^1.8.25",
+    "chart.js": "^4.4.0",
+    "next": "13.5.4",
     "react": "^18",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18",
-    "next": "13.5.4"
+    "react-icons": "^4.11.0",
+    "recharts": "^2.8.0"
   },
   "devDependencies": {
     "typescript": "^5",
