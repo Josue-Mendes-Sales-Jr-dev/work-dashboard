@@ -54,7 +54,7 @@ export const AreaChartsBox=()=>{
         <h1 className='text-white text-[1.4rem] w-[100%] pl-2'>
         Total Revenue
         </h1>
-        <ResponsiveContainer width="99%" height={300}>
+        <ResponsiveContainer width="99%" height={220}>
         <AreaChart
           width={500}
           height={400}

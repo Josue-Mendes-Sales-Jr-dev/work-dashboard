@@ -14,7 +14,7 @@ export default function Home() {
   return (
    <>
     <Layout>
-       <div className="w-[98%] mt-[85rem] sm:mt-0 h-[90vh] flex flex-col sm:grid lg:grid-cols-4 lg:grid-row-5 md:grid-cols-3 items-center justify-center gap-4">
+       <div className="w-[98%] jr:mt-[91.5rem] mj:mt-[80rem] mt-[93rem]  sm:mt-0 h-[85vh] flex flex-col sm:grid  lg:grid-cols-4 lg:grid-row-4 md:grid-cols-3 items-center justify-center gap-4">
            <div className='bg-gray-700 rounded-lg p-2  border border-black row-span-3 w-[98%] h-[100%]'>
              <TopBox/>
            </div>

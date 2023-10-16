@@ -12,7 +12,7 @@ interface IHeader{
 export const Header=(props:IHeader)=>{
     return(
         <>
-        <div className={`w-screen bg-gray-900 text-gray-300 h-[65px] flex items-center justify-between px-5`}>
+        <div className={`w-screen bg-gray-900 text-gray-300 h-[75px] flex items-center justify-between px-5`}>
            <div className="flex gap-2 items-center">
               <CiPlane/>
               <strong>Jm</strong>
@@ -22,7 +22,7 @@ export const Header=(props:IHeader)=>{
              <BsFullscreen/>
              <HiOutlineBellAlert/>
              <FaNotesMedical/>
-             <span className="w-[2.2rem] h-[2.2rem] bg-gray-300 rounded-full">
+             <span className="w-[2rem] h-[2rem] bg-gray-300 rounded-full">
 
              </span>
              <BsGearWideConnected/>

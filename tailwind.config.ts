@@ -9,7 +9,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
-    
+     screens:{
+        'jm':{'min': '390px', 'max': '850px'},
+        'mj':{'min': '385px', 'max': '480px'},
+        'jr':{'min': '280px','max': '385px'},
+     },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
